@@ -74,3 +74,35 @@ We customized the template to match our specific use cases (code refactoring and
 
 **Final Decision:** 
 **Used** — The structured format ensures our AI usage documentation is complete, professional, and meets all course academic integrity requirements. Clear documentation of our AI usage demonstrates responsible and transparent development practices.
+
+---
+
+## Entry 4 — March 15, 2026 — Data Quality Log Clarity and Organization
+
+**Context:** 
+The DATA_QUALITY_LOG.md contained findings from our exploratory data analysis regarding data completeness, missing values, outliers, and other quality issues. However, the initial notes were dense, technical, and lacked clear organization. We needed to restructure and rewrite the log so that our data quality findings were easy to understand and referenced clearly in the baseline model.
+
+**Prompt(s):** 
+"Help me rewrite our data quality findings in a clear, organized way. We found issues with missing values, outliers, and data completeness. Please restructure the log with clear sections, plain language explanations of what we found, and actionable insights. Make it easy for someone to quickly understand the data issues we discovered."
+
+**Output:** 
+The AI suggested:
+- Breaking findings into logical sections (missing values, outliers, data completeness, etc.)
+- Converting technical jargon to accessible explanations
+- Adding clear severity/impact assessments for each issue
+- Organizing findings in a before-and-after comparison format
+- Including visual summary statistics
+- Cross-referencing findings with mitigation strategies
+
+**Validation:** 
+I verified the rewritten log by:
+- Checking that all original findings were preserved and not distorted
+- Confirming that the severity assessments matched our analysis
+- Ensuring that the explanations were accurate and represented the data correctly
+- Reviewing that the new organization improved readability without loss of information
+
+**Adaptations:** 
+We incorporated sector-specific language related to F1 data and added explicit links to how these quality issues informed our baseline model decisions. We also added a summary table at the start of the log to help readers quickly identify the main issues.
+
+**Final Decision:** 
+**Used** — The restructured DATA_QUALITY_LOG.md now serves as a clear reference document that supports the baseline model development. The improved clarity helps justify our data preprocessing choices and makes the quality assessment transparent to reviewers.
