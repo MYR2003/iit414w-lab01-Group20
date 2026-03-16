@@ -1,5 +1,7 @@
 # iit414w-lab01-Group20: Formula 1 Top-10 Finish Prediction
-
+## Group 20: 
+### - Martin Yunge
+### - Benjamin Bennett
 ## Project Overview
 
 **Objective**: Predict whether a Formula 1 driver will finish in the top 10 positions using 2023 season data.
