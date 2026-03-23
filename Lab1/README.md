@@ -87,13 +87,13 @@ iit414w-lab01-Group20/
 
 ## Reproducibility Checklist
 
-- ✓ **RANDOM_SEED = 414** throughout (use: `grep -r "414" *.ipynb`)
-- ✓ **No test-set leakage** (test set sealed, unused in EDA or baseline)
-- ✓ **All code runs top-to-bottom** on fresh kernel (**Kernel → Restart & Run All**)
-- ✓ **All data via API** (no hardcoded CSVs; fastf1 handles downloads)
-- ✓ **requirements.txt complete** (pip install -r requirements.txt)
-- ✓ **.gitignore excludes cache** (no fastf1 cache files or __pycache__)
-- ✓ **README runbook** (<10 min reproduction time)
+-  **RANDOM_SEED = 414** throughout (use: `grep -r "414" *.ipynb`)
+-  **No test-set leakage** (test set sealed, unused in EDA or baseline)
+-  **All code runs top-to-bottom** on fresh kernel (**Kernel → Restart & Run All**)
+-  **All data via API** (no hardcoded CSVs; fastf1 handles downloads)
+-  **requirements.txt complete** (pip install -r requirements.txt)
+-  **.gitignore excludes cache** (no fastf1 cache files or __pycache__)
+-  **README runbook** (<10 min reproduction time)
 
 ---
 
