@@ -5,7 +5,7 @@
 > **Instructions.** Complete this sheet in your team repo as `framing.md`. Every team has 60 minutes during the studio block (14:45–15:45). Required commits: by 15:00 (sections 1–4 populated) and by 15:40 (full sheet + dataset-load notebook). No section can be left blank — write "TBD with rationale" if you are uncertain, but blank entries fail the framing rubric.
 
 **Team name:** Group 20
-**Team members:** Martin Yungue & Benjamin Bennett
+**Team members:** Martin Yunge & Benjamin Bennett
 **GitHub repo URL:** https://github.com/MYR2003/iit414w-lab01-Group20/
 
 ---
