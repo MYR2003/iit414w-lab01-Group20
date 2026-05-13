@@ -1,9 +1,9 @@
-# Leakage and Confounding Audit
+# F1 Race Strategy Advisor — Hito 2
 
-## 1. Leakage Guard Checklist
-* `grid_position`: Pre-race knowledge. Valid for baseline training.
-* `constructor_tier`: Pre-race knowledge. Valid for baseline training.
-* `n_stops` & `compound_sequence`: **Post-race knowledge.** * **Audit Result:** PASS. These features were strictly excluded from the baseline training sets for all three targets (`is_top10`, `is_top5`, `finish_position`). They are utilized *only* as user-defined scenario inputs during the What-If simulation.
+## Updated Structure
+This repository now contains a multi-target modeling pipeline to evaluate race strategy trade-offs.
 
-## 2. The Strategy Confounding Limitation
-Our current setup treats strategy adjustments (like adding a pit stop) as independent variables during simulation. This introduces a major confounding limitation: **Strategy choice is not random.** Top-tier teams with massive pace advantages can easily execute a 2-stop strategy, overtaking midfield cars in the final stint. Midfield teams attempting the exact same 2-stop strategy will get stuck in a DRS train and ruin their race. Therefore, historical data showing that "2-stops lead to higher finishes" is confounded by the fact that *faster cars are more likely to successfully pull off 2-stops*. Our models currently capture this correlation without isolating the causal effect of the strategy itself.
+### How to Run
+1. Ensure `final_f1_dataset_processed.csv` is in the directory.
+2. Consider the enviroment build on the README.md file of the Hito_1 folder on this same Repository
+3. Run `hito2_modeling.ipynb` to regenerate metrics and What-If simulations.
